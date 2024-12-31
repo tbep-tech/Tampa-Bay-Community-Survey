@@ -2420,7 +2420,7 @@ public_mail %>%
   count(INCLUDE)
 # should look like:
 # INCLUDE             n
-# Yes                 65
+# Yes                 67
 # <NA>                1
 
 
@@ -3044,7 +3044,7 @@ public_mail %>%
   count(INCLUDE)
 # should look like:
 # INCLUDE             n
-# Yes                 65
+# Yes                 67
 # <NA>                1
 public_mail_quant$INCLUDE <- ifelse(public_mail_quant$INCLUDE == "No", "No", 
                                     ifelse(is.na(public_mail_quant$POINT_X) & public_mail_quant$QC_FRAUDULENT == "Caution", "No", 
