@@ -1,4 +1,7 @@
 # Tampa-Bay-Community-Survey
+
+[![DOI](https://zenodo.org/badge/910252946.svg)](https://doi.org/10.5281/zenodo.14610128)
+
 Public data repository with associated R scripts for management and analyses of the Tampa Bay Community Survey.
 
 The following datasets are available in the repository:
